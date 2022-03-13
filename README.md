@@ -17,3 +17,5 @@ diffdist.m is used to calculate the mapping between the estimated targets and th
   journal={arXiv preprint arXiv:2108.09177},\
   year={2021}\
 }
+# Note
+The code is provided for the benefit of better understanding the results, and is not meant to be used in production.
