@@ -92,7 +92,7 @@ while t<=T
          initial_dist=p{t};
          t=t+1;
          [dist_error,initial_tg]=coorest(initial_dist);
-         if sum(dist_error>1.5*sigma_d+0.01)>0
+         if sum(dist_error)>1.5*M*sigma_d
             continue 
          end
          q3_num=q3_num+1;
