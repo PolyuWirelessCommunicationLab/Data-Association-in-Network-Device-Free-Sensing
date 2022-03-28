@@ -11,7 +11,7 @@ sdiff=10;
 itera=1;
 sdiff_next=0;
 sdiff_current=0;
-while sdiff>0.1&&itera<50
+while sdiff>0.05&&itera<50
     x_est=beta_current(1);
     y_est=beta_current(2);
     r=zeros(l_d,1);
