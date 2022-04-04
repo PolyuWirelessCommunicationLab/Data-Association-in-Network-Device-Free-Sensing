@@ -156,7 +156,7 @@ end
 if qn==0
     iteration=iteration+1;
     error_num1=error_num1+K;
-    error_num2=error_num3+K;
+    error_num2=error_num2+K;
     error_num3=error_num3+K;
     %error_num_da=error_num_da+1;
     [error_num1,error_num2,error_num3,K,iteration]
