@@ -24,6 +24,29 @@ while iteration<iteration_max
 coordinate_bs=R*(rand(M,2)-0.5);
 coordinate_tg=R*(rand(K,2)-0.5);
 
+%calculate the original BS distance
+dist_bs=zeros(M,M);
+for i=1:M
+    for j=1:M
+        dist_bs(i,j)=sqrt((coordinate_bs(i,1)-coordinate_bs(j,1))^2+(coordinate_bs(i,2)-coordinate_bs(j,2))^2);
+    end
+end
+
+%select the first three base stations
+set_M=sort(randperm(M));
+set_ALL=nchoosek(set_M,3);
+l_set=length(set_ALL);
+set_diff=zeros(l_set,1);
+for i=1:l_set
+    set_i=set_ALL(i,:);
+    set_diff(i)=abs(dist_bs(set_i(1),set_i(2))-dist_bs(set_i(1),set_i(3)))+abs(dist_bs(set_i(1),set_i(2))-dist_bs(set_i(2),set_i(3)))+abs(dist_bs(set_i(1),set_i(3))-dist_bs(set_i(2),set_i(3)));
+end
+set_ind=find(set_diff==min(set_diff));
+set_min=set_ALL(set_ind,:);
+set_comple=setdiff(set_M,set_min);
+set_revise=[set_min,set_comple];
+coordinate_bs=coordinate_bs(set_revise.',:);
+
 %calculate distances from base stations to targets
 dist_r=zeros(M,K); 
 d=zeros(M,K);
