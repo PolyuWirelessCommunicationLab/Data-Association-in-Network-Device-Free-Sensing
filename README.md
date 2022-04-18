@@ -8,7 +8,8 @@ coorest.m is used to emstimate target location by solving nonlinear sqaure probl
 munkres.m is an open file [munkres](https://ww2.mathworks.cn/matlabcentral/fileexchange/20652-hungarian-algorithm-for-linear-assignment-problems-v2-3) in Matlab, which is used to solve two dimensional assignment problem through Hungarian Method.\
 initial_est.m is the initial target estimation in the coorest.m.\
 distsum.m is used to caculate the sum of distances from the estimated targets to all BSs.\
-diffdist.m is used to calculate the mapping between the estimated targets and the true targets and the distances between them.
+diffdist.m is used to calculate the mapping between the estimated targets and the true targets and the distances between them.\
+If you have any questions on this code, please contact me [qin-eie.shi@polyu.connect.hk].
 
 # Citation 
 @article{shi2021device,\
