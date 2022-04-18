@@ -9,7 +9,7 @@ munkres.m is an open file [munkres](https://ww2.mathworks.cn/matlabcentral/filee
 initial_est.m is the initial target estimation in the coorest.m.\
 distsum.m is used to caculate the sum of distances from the estimated targets to all BSs.\
 diffdist.m is used to calculate the mapping between the estimated targets and the true targets and the distances between them.\
-If you have any questions on this code, please contact me [qin-eie.shi@polyu.connect.hk].
+If you have any questions on this code, please contact me: qin-eie.shi@polyu.connect.hk.
 
 # Citation 
 @article{shi2021device,\
