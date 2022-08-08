@@ -13,13 +13,13 @@ If you have any questions on this code, please contact me: qin-eie.shi@polyu.con
 
 # Citation 
 @ARTICLE{9724258,
-  author={Shi, Qin and Liu, Liang and Zhang, Shuowen and Cui, Shuguang},
-  journal={IEEE Journal on Selected Areas in Communications}, 
-  title={Device-Free Sensing in OFDM Cellular Network}, 
-  year={2022},
-  volume={40},
-  number={6},
-  pages={1838-1853},
+  author={Shi, Qin and Liu, Liang and Zhang, Shuowen and Cui, Shuguang},\
+  journal={IEEE Journal on Selected Areas in Communications}, \
+  title={Device-Free Sensing in OFDM Cellular Network}, \
+  year={2022},\
+  volume={40},\
+  number={6},\
+  pages={1838-1853},\
   }
 # Note
 The code is provided for the benefit of better understanding the results, and is not meant to be used in production.
