@@ -14,7 +14,7 @@ If you have any questions on this code, please contact me: qin-eie.shi@polyu.con
   author={Shi, Qin and Liu, Liang and Zhang, Shuowen and Cui, Shuguang},\
   journal={IEEE Journal on Selected Areas in Communications}, \
   title={Device-Free Sensing in OFDM Cellular Network}, \
-  month={Jan.}
+  month={Jan.}\
   year={2022},\
   volume={40},\
   number={6},\
