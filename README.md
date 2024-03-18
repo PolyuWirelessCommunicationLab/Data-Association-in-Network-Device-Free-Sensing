@@ -1,6 +1,6 @@
 # Data Association in Networked Device-free Sensing
 The codes are for the following papers:\
-[1] Q. Shi, L. Liu, S. Zhang, and S. Cui, "[Device-free sensing in OFDM cellular network](https://ieeexplore-ieee-org.ezproxy.lb.polyu.edu.hk/stamp/stamp.jsp?tp=&arnumber=9724258)", IEEE J. Sel. Areas Commun., vol. 40, no. 6, pp. 1838-1853, Jun. 2022.\
+[1] Q. Shi, L. Liu, S. Zhang, and S. Cui, "[Device-free sensing in OFDM cellular network](https://arxiv.org/abs/2108.09177)", IEEE J. Sel. Areas Commun., vol. 40, no. 6, pp. 1838-1853, Jun. 2022.\
 [2] Q. Shi and L. Liu, "Joint LOS identification and data association for 6G-enabled networked device-free sensing," to appear in IEEE Trans. Commun..\
 [3] [Q. Shi, L. Liu, and S. Zhang, "[Joint data association, NLOS mitigation, and clutter suppression for networked device-free sensing in 6G cellular network](https://arxiv.org/abs/2302.08080)," in Proc. IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2023.]
 # Brief Introduction
