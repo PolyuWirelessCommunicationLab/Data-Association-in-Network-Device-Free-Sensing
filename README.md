@@ -3,7 +3,7 @@
 # Brief Introduction
 The papers consider device-free sensing in an orthogonal frequency division multiplexing (OFDM) cellular network to enable integrated sensing and communication (ISAC). A novel two-phase sensing framework is proposed to localize the passive targets that cannot transmit/receive reference signals to/from the base stations (BSs), where the ranges of the targets are estimated based on their reflected OFDM signals to the BSs in Phase I, and the location of each target is estimated based on its ranges to different BSs in Phase II. 
 
-Folder ‘Device-free Sensing in OFDM Celular Network’ is for the paper [1], and Folder 'Joint LOS Identification and Data Association in Networked Device-free Sensing' is for the paper [2], [3].\
+Folder ‘Device-free Sensing in OFDM Celular Network’ is for the paper [1], and Folder 'Joint LOS Identification and Data Association in Networked Device-free Sensing' is for the paper [2], [3].
 
 Should you have any questions, welcome to contact the author at: qin-eie.shi@polyu.connect.hk.
 
