@@ -11,7 +11,7 @@ Should you have any questions, welcome to contact the author at: qin-eie.shi@pol
 The papers consider device-free sensing in an orthogonal frequency division multiplexing (OFDM) cellular network to enable integrated sensing and communication (ISAC). A novel two-phase sensing framework is proposed to localize the passive targets that cannot transmit/receive reference signals to/from the base stations (BSs), where the ranges of the targets are estimated based on their reflected OFDM signals to the BSs in Phase I, and the location of each target is estimated based on its ranges to different BSs in Phase II. 
 
 # Citation 
-@ARTICLE{shi2022device,
+@ARTICLE{shi2022device,\
   author={Shi, Qin and Liu, Liang and Zhang, Shuowen and Cui, Shuguang},\
   journal={IEEE Journal on Selected Areas in Communications}, \
   title={Device-Free Sensing in OFDM Cellular Network}, \
@@ -21,7 +21,23 @@ The papers consider device-free sensing in an orthogonal frequency division mult
   number={6},\
   pages={1838-1853},\
   }
+  
+@inproceedings{shi2023joint,\
+  title={Joint data association, NLOS mitigation, and clutter suppression for networked device-free sensing in 6G cellular network},\
+  author={Shi, Qin and Liu, Liang and Zhang, Shuowen},\
+  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\
+  pages={1--5},\
+  year={2023},\
+  organization={IEEE}\
+}
 
+@article{shi2024joint,\
+  title={Joint LOS Identification and Data Association for 6G-Enabled Networked Device-Free Sensing},\
+  author={Shi, Qin and Liu, Liang},\
+  journal={IEEE Transactions on Communications},\
+  year={2024},\
+  publisher={IEEE}\
+}
   
 # Note
 The code is provided for the benefit of better understanding the results, and is not meant to be used in production.
