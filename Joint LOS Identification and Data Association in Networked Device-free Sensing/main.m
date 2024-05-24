@@ -170,7 +170,7 @@ for K=2:7% the number of target
         for m=1:M
             x_m=sqrt(snr)*H(:,m);
             x_ind=find(abs(x_m)>0);
-            y_m=G_t*x_m+randn(N,1);
+            y_m=G_t*x_m+sqrt(0.5)*(randn(N,1)+1j*randn(N,1));
             x_est=inv_G_t*y_m;
             for u=m:M
                 if u==m
